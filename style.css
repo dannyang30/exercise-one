@@ -1,7 +1,6 @@
 body {
     display: flex;
     flex-direction: column;
-
 }
 
 .header {
@@ -26,6 +25,7 @@ ul {
     height: 40px;
 }
 
+
 .header h1 {
     color: white;
 }
@@ -49,3 +49,28 @@ ul {
     width: 400px;
     height: 300px
 }
+
+.usp-section {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 200px
+}
+
+.logo-subtext {
+    display: flex;
+    flex-direction: column; 
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+
+
+
+
+/* To-dos:
+
+- Make sure that positional ratio of elements do not move when zooming in and out of page
