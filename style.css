@@ -26,7 +26,7 @@ ul {
 }
 
 
-.header h1 {
+.header, h1 {
     color: white;
 }
 
@@ -91,8 +91,32 @@ ul {
     font-size: large;
 }
 
+.bottom-container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.CTA-container {
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 5px 40px;
+    border-radius: 25px;
+}
 
+h3, h4 {
+    color: white
+}
 
+.footer {
+    display: flex;
+    background-color: navy;
+    justify-content: center;
+}
 /* To-dos:
 
 - Make sure that positional ratio of elements do not move when zooming in and out of page
